@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "tw": "npx tailwindcss -i ./input.css -o ./src/pages/static/css/style.css --watch",
+    "prettier": "prettier --write **/*.php"
+  }
+}

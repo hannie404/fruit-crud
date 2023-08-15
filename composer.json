@@ -1,0 +1,9 @@
+{
+    "name": "princ/kodego",
+    "autoload": {
+        "psr-4": {
+            "Princ\\Kodego\\": "src/"
+        }
+    },
+    "require": {}
+}
